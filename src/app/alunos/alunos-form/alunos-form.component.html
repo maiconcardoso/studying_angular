@@ -1,22 +1,22 @@
 <div class="row">
-  <form class="col s12">
-    <div class="row">
-      <div class="input-field col s6">
-        <input [ngModel]="aluno.id" id="id" type="text" class="validate">
-        <label for="id">#</label>
+  <div class="col s12">
+    <form>
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="#" [ngModel]="aluno.id" id="id" name="id" type="text" class="validate">
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="input-field col s12">
-        <input [ngModel]="aluno.nome" id="nome" type="text" class="validate">
-        <label for="nome">Nome:</label>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Nome" [ngModel]="aluno.nome" id="nome" name="nome" type="text" class="validate">
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="input-field col s12">
-        <input [ngModel]="aluno.email" id="email" type="email" class="validate">
-        <label for="email">Email</label>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Email" [ngModel]="aluno.email" id="email" name="email" type="email" class="validate">
+        </div>
       </div>
-    </div>
-  </form>
+    </form>
+    <button class="waves-effect waves-light btn-small">Salvar</button>
+  </div>
 </div>

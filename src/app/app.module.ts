@@ -7,8 +7,8 @@ import { LoginComponent } from './login/login.component';
 
 /* import { routing } from './app.routing'; */
 import { AppRoutingModule } from './app.routing.module';
-import { CursosModule } from './cursos/cursos.module';
-import { AlunosModule } from './alunos/alunos.module';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,8 +18,6 @@ import { AlunosModule } from './alunos/alunos.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CursosModule,
-    AlunosModule
     /* routing */
   ],
   providers: [],
