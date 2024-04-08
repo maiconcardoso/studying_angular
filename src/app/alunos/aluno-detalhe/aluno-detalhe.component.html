@@ -1,0 +1,16 @@
+<h5>Detalhes do Aluno</h5>
+
+
+<div class="collection">
+  <a class="collection-item">
+    Id: {{ aluno.id }}
+  </a>
+  <a class="collection-item">
+    Nome: {{ aluno.nome }}
+  </a>
+  <a class="collection-item">
+    Email: {{ aluno.email }}
+  </a>
+</div>
+
+<button (click)="editarAluno()" class="waves-effect waves-light btn-small">Editar</button>
